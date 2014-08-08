@@ -23,7 +23,6 @@ for (i=0; i < p.length; i++) {
 p[i].className= "menu_bar";
 }
 
-
 var img = obj.getElementsByTagName('img');
 for (i=0; i < p.length; i++) {
 img[i].className= "img_menu";
