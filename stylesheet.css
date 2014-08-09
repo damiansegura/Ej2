@@ -21,6 +21,7 @@
 }
 
 
+
 body {
 	margin-right: 0px;
 	margin-top: 0px;
@@ -169,6 +170,7 @@ ul {
 	width: 25px;
 	vertical-align: middle;
 	margin-left: 18px;
+	visibility: hidden;
 }
 
 .img_menu1 {

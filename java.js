@@ -1,3 +1,4 @@
+
 function mybar (obj) {
 
 obj.className = "bar1";
@@ -11,6 +12,8 @@ p[i].className= "menu_bar1";
 var img = obj.getElementsByTagName('img');
 for (i=0; i < p.length; i++) {
 img[i].className= "img_menu1";
+img[i].style.visibility= "visible";
+
 }
 
 }
@@ -26,9 +29,12 @@ p[i].className= "menu_bar";
 var img = obj.getElementsByTagName('img');
 for (i=0; i < p.length; i++) {
 img[i].className= "img_menu";
+img[i].style.visibility= "hidden";
 }
 
 }
+
+
 
 function saludo() {
 
